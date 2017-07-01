@@ -1,6 +1,11 @@
 
 /*
-   Instagram blue is #3a6890
+   Instagram 
+      background blue is #3a6890
+      text blue is #012a55
+      nav link blue is #5d88aa
+      home button gradient: top left #6892b2 to bottom right #41739b;
+      copyright text #a8a8a8
 */
 
 body {
@@ -17,7 +22,7 @@ div {
 */
 
 h1 {
-   color: #3a6890;
+   color: #012a55;
    font-weight: 400;
 }
 
@@ -53,12 +58,18 @@ footer {
 }
 
 #phonyBox {
-   float: left;
+   position: relative;
+   width: 400px;
+   height: 600px;
+   background-color: #fc0;
 }
 
 #wordyBox {
-   float: left;
-   width: 400px;
+   position: relative;
+   left: 400px;
+   width: 600px;
+   height: 600px;
+   background-color: #0cf;
 }
 
 #copyright {
