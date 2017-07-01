@@ -4,26 +4,24 @@
       background blue is #3a6890
       text blue is #012a55
       nav link blue is #5d88aa
-      home button gradient: top left #6892b2 to bottom right #41739b;
+      home button gradient: top  #6993b3 to bottom  #42749c;
       copyright text #a8a8a8
 */
 
 body {
+   background: #fff url("images/bgtile.png");
    height: 100%;
-   font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-   font-size: 14px;
+   margin: 0;
+   font-family: 'Cabin', Helvetica, Arial ,sans-serif;
+   font-size: 19px;
+   font-weight: 300;
+   line-height: 1.5;
    text-align: center;
 }
 
-/* 
-div {
-   background: linear-gradient(0deg, #fff 50%, #3a6890 50%);
-}
-*/
-
 h1 {
    color: #012a55;
-   font-weight: 400;
+   font-weight: 600;
 }
 
 ul {
@@ -54,22 +52,35 @@ a:visited {
 footer {
    position: relative;
    width: 1024px;
-   float: left;
+}
+
+#container {
+   background: linear-gradient(0deg, #fff 50%, #3a6890 50%);
+}
+
+#contentBox {
+
 }
 
 #phonyBox {
-   position: relative;
    width: 400px;
-   height: 600px;
-   background-color: #fc0;
+   /* height: 600px; */
 }
 
 #wordyBox {
-   position: relative;
    left: 400px;
    width: 600px;
-   height: 600px;
-   background-color: #0cf;
+   /* height: 600px; */
+}
+
+#login {
+   color: #e4ebf1;
+   text-shadow: 2px 2px 4px #000;
+   width: 100px;
+   height: 40px;
+   border: 2px solid #5d88aa;
+   border-radius: 5px;
+   background: linear-gradient(#6993b3, #42749c) ;
 }
 
 #copyright {
