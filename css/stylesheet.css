@@ -1,18 +1,8 @@
 
-/*
-   Instagram 
-      background blue is #3a6890
-      text blue is #012a55
-      nav link blue is #5d88aa
-      home button gradient: top  #6993b3 to bottom  #42749c;
-      copyright text #a8a8a8
-*/
-
 body {
-   /* background: #fff url("../images/bgtile.png") repeat-x; */
    height: 100%;
    margin: 0;
-   font-family: 'Hind Vadodara','Helvetica Neue','Prompt', Helvetica, Arial ,sans-serif;
+   font-family: 'Hind Vadodara','Helvetica Neue',Helvetica,Arial,sans-serif;
    font-size: 16px;
    font-weight: 300;
    line-height: 1.12
@@ -64,18 +54,6 @@ footer {
    padding: 30px;
 }
 
-/* Clear fix hack */
-/* 
-.clearfix:after {
-    content: ".";
-    display: block;
-    clear: both;
-    visibility: hidden;
-    line-height: 0;
-    height: 0;
-}
-*/
-
 #gradient {
    background-color: #fff;
    background-image: linear-gradient(0deg, #fff 62%, #3a6890 38%);
@@ -86,14 +64,6 @@ footer {
    padding: 95px 0 0 0;
    width: 960px;
 }
-
-/*
-#contentBox {
-   float: left;
-   width: 400px;
-   clear: left;
-}
-*/
 
 #phoneBox {
    float: left;
@@ -113,8 +83,6 @@ footer {
    background: url("../images/frame.png") no-repeat;
    padding: 5px 30px;
    margin: 15px 0 0 20px;
-   /* border-radius: 5px;
-   box-shadow: 2px 2px 4px #555; */
 }
 
 #greedyBox {
