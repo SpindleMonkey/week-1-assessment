@@ -12,15 +12,20 @@ body {
    background: #fff url("../images/bgtile.png") repeat-x;   
    height: 100%;
    margin: 0;
-   font-family: 'Prompt', Helvetica, Arial ,sans-serif;
+   font-family: 'Helvetica Neue','Prompt', Helvetica, Arial ,sans-serif;
    font-size: 16px;
-   font-weight: 100;
+   font-weight: 300;
    line-height: 1.5;
+   color: #3a6890;
 }
 
 h1 {
    color: #012a55;
    font-weight: 600;
+}
+
+strong {
+   font-weight: 900;
 }
 
 ul {
@@ -48,6 +53,10 @@ a:visited {
    color: #3a6890;
 }
 
+img {
+   margin-right: 15px;
+}
+
 footer {
    float: static;
    clear: left;
@@ -55,6 +64,7 @@ footer {
    font-weight: 900;
    text-align: center;
    margin: 0 auto;
+   padding: 30px;
 }
 
 /* Clear fix hack */
@@ -68,34 +78,38 @@ footer {
 }
 
 
-
 #container {
    /* background: linear-gradient(0deg, #fff 50%, #3a6890 50%); */
    margin: 95px auto 0 auto;
-   width: 900px;
+   width: 960px;
 }
 
+/*
 #contentBox {
    float: left;
    width: 400px;
    clear: left;
 }
+*/
 
 #phoneBox {
    float: left;
    width: 320px;
+   margin: 0 20px 0 0;
 }
 
 #logo {
    float: left;
    width: 314;
+   margin: 15px 0 0 20px;
 }
 
 #wordyBox {
    float: left;
-   width: 360px;
+   width: 450px;
    background: url("../images/frame.png");
    padding: 5px 30px;
+   margin: 15px 0 0 20px;
    /* border-radius: 5px;
    box-shadow: 2px 2px 4px #555; */
 }
@@ -107,8 +121,8 @@ footer {
    border-radius: 4px;
    background: linear-gradient(#6993b3, #42749c) ;
    float: left;
-   width: 80px;
-   /*height: 34px; */
+   width: 100px;
+   height: 35px;
 }
 
 #copyright {
