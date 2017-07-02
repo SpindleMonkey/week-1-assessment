@@ -9,14 +9,13 @@
 */
 
 body {
-   background: #fff url("images/bgtile.png");
+   background: #fff url("../images/bgtile.png") repeat-x;   
    height: 100%;
    margin: 0;
    font-family: 'Cabin', Helvetica, Arial ,sans-serif;
-   font-size: 19px;
-   font-weight: 300;
+   font-size: 16px;
+   font-weight: 100;
    line-height: 1.5;
-   text-align: center;
 }
 
 h1 {
@@ -50,39 +49,53 @@ a:visited {
 }
 
 footer {
-   position: relative;
-   width: 1024px;
+   font-size: 12px;
+   font-weight: 900;
+   text-align: center;
 }
 
 #container {
-   background: linear-gradient(0deg, #fff 50%, #3a6890 50%);
+   /* background: linear-gradient(0deg, #fff 50%, #3a6890 50%); */
+   margin: 55px auto 0 auto;
+   width: 900px;
 }
 
 #contentBox {
-
+   float: left;
+   width: 400px;
+   clear: left;
 }
 
-#phonyBox {
-   width: 400px;
-   /* height: 600px; */
+#phoneBox {
+   float: left;
+   width: 320px;
+}
+
+#logo {
+   float: left;
+   width: 314;
 }
 
 #wordyBox {
-   left: 400px;
-   width: 600px;
-   /* height: 600px; */
+   float: left;
+   width: 360px;
+   background: url("../images/frame.png");
+   padding: 5px 30px;
+   /* border-radius: 5px;
+   box-shadow: 2px 2px 4px #555; */
 }
 
 #login {
    color: #e4ebf1;
-   text-shadow: 2px 2px 4px #000;
-   width: 100px;
-   height: 40px;
+   text-shadow: 2px 2px 4px #555;
    border: 2px solid #5d88aa;
    border-radius: 5px;
    background: linear-gradient(#6993b3, #42749c) ;
+   float: left;
+   width: 80px;
+   /*height: 34px; */
 }
 
 #copyright {
-   color: #ccc;
+   color: #eee;
 }
