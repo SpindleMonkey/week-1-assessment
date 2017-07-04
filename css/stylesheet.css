@@ -1,4 +1,11 @@
+/* *********************************************************
+ *
+ * Stylesheet for the Instagram recreation
+ *
+ * ******************************************************** */
 
+
+/* set some general defaults for the page */
 body {
    height: 100%;
    margin: 0;
@@ -15,10 +22,12 @@ h1 {
    line-height: 1.3;
 }
 
+/* make bold really bold! */
 strong {
    font-weight: 900;
 }
 
+/* want navigation as all caps */
 ul {
    list-style: none;
    text-transform: uppercase;
@@ -29,6 +38,7 @@ li {
    margin: 0 10px;
 }
 
+/* clean up the links so they don't change colors or show underines */
 a {
    text-decoration: none;
    color: #3a6890;
@@ -44,6 +54,7 @@ a:visited {
    color: #3a6890;
 }
 
+/* navigation--want a horizontal list of links */
 footer {
    float: static;
    clear: left;
@@ -54,11 +65,15 @@ footer {
    padding: 30px;
 }
 
+/* use CSS for the half blue/half white backg
+round instead of that old-school tiled image! */
 #gradient {
    background-color: #fff;
    background-image: linear-gradient(0deg, #fff 62%, #3a6890 38%);
 }
 
+/* this is the outer box that contains all the images and text, except for the booter
+   and is used only to position the entire collection of images/text in the center */
 #container {
    margin: 0 auto;
    padding: 95px 0 0 0;
@@ -77,6 +92,8 @@ footer {
    margin: 15px 50px 0 20px;
 }
 
+/* style a box for the text; use the background image with the rounded corners and
+   drop-shado for now ;TODO: replace bg image with CSS */
 #wordyBox {
    float: left;
    width: 445px;
@@ -85,12 +102,14 @@ footer {
    margin: 15px 0 0 20px;
 }
 
+/* box with app badges/links */
 #greedyBox {
    float: left;
    width: 445px;
    margin: 0 50px;
 }
 
+/* had to modify img styles to fit the second 'column' of the layout */
 #greedyBox img {
    float: left;
    width: 165px;
@@ -98,6 +117,7 @@ footer {
    margin-top: 10px;
 }
 
+/* styling a div for the login button */
 #login {
    color: #e4ebf1;
    text-shadow: 2px 2px 4px #555;
@@ -112,6 +132,7 @@ footer {
    margin-left: 23px;
 }
 
+/* needed other styles for the login (home) image */
 #login img {
    position: relative;
    left: 6px;
